@@ -10,9 +10,9 @@ My users would be the immigrant parents themselves and or a friend - nonprofit o
 
 As a user I want to be able to create an account
 As a user I want to be able to successfully sign into my account
-In my account I want to be able to post a way to be contacted 
+In my account I want to be able to post a way to be contacted
 
-	- address
+  - address
   - phone and or email
 
 I want to be able to post a picture of my child so others can see it and be able to contact me with any information
