@@ -1,6 +1,11 @@
 # frozen_string_literal: true
-# stablishing a one to many relationship between user and post
 
-class ProfilesController < OpenReadController
-  # belongs_to :user
+class ProfilesController < ApplicationController
+  # define index method in ProfilesController
+
+  def index
+    @posts = Post.all
+
+    render json: @posts
+  end
 end
