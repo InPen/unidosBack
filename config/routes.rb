@@ -10,4 +10,9 @@ Rails.application.routes.draw do
   post '/sign-in' => 'users#signin'
   delete '/sign-out' => 'users#signout'
   patch '/change-password' => 'users#changepw'
+
+
+  # profile routes
+  get '/profiles' => 'profiles#index'
+  # resources :posts, only: %i[]
 end
