@@ -4,8 +4,8 @@ class ProfilesController < ApplicationController
   # define index method in ProfilesController
 
   def index
-    @posts = Post.all
+    @profiles = Profile.all
 
-    render json: @posts
+    render json: @profiles
   end
 end
